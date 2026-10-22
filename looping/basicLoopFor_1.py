@@ -29,9 +29,16 @@
 
 
 # menenetukan bilangan ganjil dan genap
-batas = int(input("Cek angka sampai: "))
-for angka in range(1, batas + 1):
-    if angka % 2 == 0:
-        print(angka, "genap")
-    else:
-        print(angka, "ganjil")
+# batas = int(input("Cek angka sampai: "))
+# for angka in range(1, batas + 1):
+#     if angka % 2 == 0:
+#         print(angka, "genap")
+#     else:
+#         print(angka, "ganjil")
+        
+jumlah = 0
+
+for i in range(1, 5):
+    jumlah += i
+
+print(jumlah)
